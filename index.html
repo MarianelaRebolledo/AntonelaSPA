@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonela_Spa</title>
+
+    <style>
+        .titulo {
+            text-align: center;
+            padding: 10px 10px 0px 10px
+        }
+        .foto_portada {
+            padding: 20px 300px 10px 300px; 
+         
+        }
+
+        header{
+            background-color: rgba(207, 184, 207, 0.884);
+            color: white;
+             
+        }
+        main{
+            background-color:rgba(207, 184, 207, 0.884);
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+        footer{
+            background-color: rgba(207, 184, 207, 0.884);
+        }
+        .producto{
+            width: 200px;
+        }
+        .contenedor{
+            display: flex;    
+        }
+        .precio {
+            color:deeppink
+        }
+
+        @media (max-width:600px){
+            .contenedor{
+                flex-direction:column;
+            }
+        }
+        
+        .prod{
+            padding: 24px; 
+        }
+
+        .tamano_foto{
+            width: 40px;
+            padding: 20px;
+        }
+
+        .redes_sociales{
+            display: flex;
+            padding: 0px 20px 20px 20px; 
+        }
+
+        .contacto{
+            color: white;
+            padding: 20px 20px 10px 20px; 
+        }
+
+        .oferta{
+            color:darkviolet
+    
+        }
+
+        .subt {
+            text-align: center;
+            color:darkviolet;
+            padding: 10px;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="titulo">
+                Antonela Spa de los Valles - VITARAIN
+            </h1>            
+
+        </div>
+
+        <div class="foto_portada">
+            <img src="Vitarain2.jpg" alt="" width="100%" >
+            
+        </div>
+
+     </header>
+    <main>
+
+        <div class="subt">
+            <h1 >
+                Convierte tu ducha en un SPA con los mejores aromas!!!
+            </h1>
+        </div>
+
+        <div class="contenedor">
+            <div class="lavanda prod" >
+                <h2>
+                    Lavanda
+                </h2>
+                <img src="lavanda.jpg" alt="" class="producto">
+                <div class="precio">
+                    <h3>
+                     Oferta $15.990
+                    </h3>
+                </div>
+            </div>
+
+            <div class="rosas prod">
+                <h2>
+                    Rosas
+                </h2>
+                <img src="rosa.jpg" alt="" class="producto">
+                <div class="precio">
+                    <h3>
+                     Oferta $15.990
+                    </h3>
+                </div>
+            </div>
+
+            <div class="pino prod">
+                <h2>
+                    Pino
+                </h2>
+                <img src="Pino.jpg" alt="" class="producto">
+                <div class="precio">
+                    <h3>
+                     Oferta $15.990
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="fresia prod">
+                <h2>
+                    Fresia
+                </h2>
+                <img src="fresia.jpg" alt="" class="producto">
+                <div class="precio">
+                    <h3>
+                     Oferta $15.990
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="limon prod">
+                <h2>
+                    Limón
+                </h2>
+                <img src="limon.jpg" alt="" class="producto">
+                <div class="precio">
+                    <h3>
+                     Oferta $15.990
+                    </h3>
+                </div>
+            </div> 
+        </div>
+        <div class="oferta"> 
+            <h3> Antes $19.990 -    "Ofertas válidas solo por el mes de septiembre" </h3>
+        </div>
+    </main>
+
+    <footer>
+        <h3 class="contacto">
+            Contáctanos
+        </h3>
+        <div class="redes_sociales">
+            <div>
+                <a href="https://wa.me/5699789893" target="_blank">
+                <img src="whatsapp.png" alt="" class="tamano_foto">
+            </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/antonelaspa_delosvalles/" target="_blank"> <img src="instagram.png" alt="" class="tamano_foto">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/antonelaspa.delosvalles" target="_blank"> <img src="facebook.png" alt="" class="tamano_foto">
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+  
+</body>
+</html>
